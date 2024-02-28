@@ -20,9 +20,9 @@ This is how you do bold: **bold**
 * item 2
   * subpoint for item 2
   * subpoint 2 for item 2
-* item 3
+- item 3
 
-- item 1
+> You can use either `*` or `-` for bullet points.
 
 Steps:
 1. first item
