@@ -11,7 +11,10 @@ A Distributed Version Control System is a version control system that does not r
 ## Git
 
 ### Check your Git version
-Run `git --version` to check your version of Git.
+To check your version of Git:
+```commandline
+git --version
+```
 
 ### The Three Stages in Git:
 
@@ -41,4 +44,46 @@ Run `git --version` to check your version of Git.
 
 The purpose of `.gitignore` is to tell Git which files and patterns to exclude when staging changes or creating commits. It helps keep your repository clean, avoids unnecessary clutter, and prevents sensitive information from being accidentally committed.
 
-  
+## Dealing with different versions
+It's important to take snapshots of your versions using `git commit` command. 
+
+**git log** <br>
+If you wanted to compare two commits (i.e. two versions/snapshots), you can copy the commit IDs – which you can retrieve by running:
+```commandline
+git log
+```
+
+### Difference between versions
+**git diff**<br>
+Run the command to show the differences:
+```commandline
+git diff [old-commitID] [new-commitID]
+```
+> Example: Let's say the commit ID for version 1 is 12345 and the commit ID for version 1 is 67890.
+The command to run would be `git diff 12345 67890`
+
+Any new additions will start with a plus sign (+) and any deletions will start with a minus sigh (-).
+
+
+
+### Viewing different versions
+
+To view different versions you can run the following:
+
+```
+git checkout [commitID]
+```
+
+To view the latest version of that branch (which is called 'main' in this case):
+```
+git checkout main
+```
+
+To do a hard reset where the risk:
+```
+git checkout main
+```
+
+git reset
+explain branching briefly
+

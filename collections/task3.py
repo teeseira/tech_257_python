@@ -22,4 +22,4 @@ print("Hint 3: 8th to 10th letters are: " + hint3_slice)
 hint4_slice = original_word[:2] # First 2
 print("Hint 4: First two letters are: " + hint4_slice)
 # Game ends here
-print("What's your guess?")
+print(input("What's your guess?"))

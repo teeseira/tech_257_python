@@ -31,6 +31,7 @@ shopping_list.remove('bananas')
 print("List after removing bananas:", shopping_list)
 
 # Remove the last item using the pop method
+# You can also add a index to remove a specific index, leave empty to default remove last item
 remove_item = shopping_list.pop()
 print("Removed item (last item):", remove_item)
 print("List after popping last item:", shopping_list)
