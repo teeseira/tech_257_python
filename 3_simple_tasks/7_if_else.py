@@ -1,7 +1,7 @@
 # Write a Python script to calculate the user's year of birth.
 
 # First Part
-# define the variables age_int and name_str (set dummy/default/initial values)
+# define the 1_variables age_int and name_str (set dummy/default/initial values)
 # make a calculation for the year in which the person was born
 # print out "OMG , you are years old so you were born in " with the correct values
 

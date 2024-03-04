@@ -1,13 +1,15 @@
 # Task: Using 'while loops' with an int
 
-# Initialise x with the value of 0
+# Initialise x
 x = 0
 
 while x < 10:
     print(f"print x -> {x}")
     x += 1
 
-# Initialize x again
+print()
+
+# Initialise x again
 x = 0
 
 # Break while loop to exit when x equals 4

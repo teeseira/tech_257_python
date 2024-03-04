@@ -5,7 +5,7 @@ student_1 = {
     "name": "susan",
     "stream": "tech",
     "completed_lessons": 4,
-    "completed_lesson_names": ["variables", "data_types", "set up"]
+    "completed_lesson_names": ["1_variables", "data_types", "set up"]
 }
 
 # 3. Print the dictionary to the screen
